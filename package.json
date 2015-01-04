@@ -1,0 +1,29 @@
+{
+  "name": "kelly",
+  "version": "0.0.0",
+  "description": "Kelly criterion",
+  "keywords": [
+    "decision theory",
+    "math",
+    "probability",
+    "wager"
+  ],
+  "repository": "KenanY/kelly",
+  "license": "MIT",
+  "author": "Kenan Yildirim <kenan@kenany.me> (http://kenany.me/)",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "LICENSE.txt"
+  ],
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "tape test/index.js"
+  },
+  "devDependencies": {
+    "lodash.isfunction": "^2.4.1",
+    "tape": "^3.0.0"
+  }
+}
