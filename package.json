@@ -23,7 +23,7 @@
     "test": "tape test/index.js"
   },
   "devDependencies": {
-    "lodash.isfunction": "^2.4.1",
+    "lodash.isfunction": "^3.0.8",
     "tape": "^3.0.0"
   }
 }
