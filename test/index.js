@@ -18,5 +18,5 @@ test('roulette', function(t) {
   t.plan(1);
 
   // -1/19
-  t.equal(kelly(1, 18/38), -0.052631578947368474);
+  t.equal(kelly(1, 18 / 38), -0.052631578947368474);
 });
