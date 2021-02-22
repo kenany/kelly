@@ -1,23 +1,26 @@
-name: Node.js CI
-on: [push]
+name: nodejs
+on: [pull_request, push]
 jobs:
   build:
-    name: Node.js ${{ matrix.node-version }}, ${{ matrix.os }}
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
-        node-version: [10, 12]
-        os: [ubuntu-latest, windows-latest, macOS-latest]
+        node-version: [10, 12, 14]
+        os: [ubuntu-latest]
     steps:
-    - uses: actions/checkout@v2
     - name: Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v1
+      uses: actions/setup-node@v2.1.4
       with:
         node-version: ${{ matrix.node-version }}
-    - name: npm install, ls, and test
+    - name: Update npm
       run: |
-        npm install
-        npm ls
-        npm test
-      env:
-        CI: true
+        npm install -g npm
+        npm --version
+    - uses: actions/checkout@v2.3.4
+    - name: Install dependencies
+      uses: bahmutov/npm-install@v1.7.1
+      with:
+        useLockFile: false
+    - run: npm ls
+    - name: Test
+      run: npm test
