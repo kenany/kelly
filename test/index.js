@@ -1,21 +1,21 @@
-var test = require('tape');
-var isFunction = require('lodash.isfunction');
+const test = require('tape');
+const isFunction = require('lodash.isfunction');
 
-var kelly = require('../');
+const kelly = require('../');
 
-test('exports a function', function(t) {
+test('exports a function', (t) => {
   t.plan(1);
   t.ok(isFunction(kelly));
 });
 
-test('b=1, p=0.6', function(t) {
+test('b=1, p=0.6', (t) => {
   t.plan(1);
 
   // 0.2
   t.equal(kelly(1, 0.6), 0.19999999999999996);
 });
 
-test('roulette', function(t) {
+test('roulette', (t) => {
   t.plan(1);
 
   // -1/19
