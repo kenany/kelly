@@ -5,7 +5,7 @@
 ## Example
 
 ``` javascript
-var kelly = require('kelly');
+const kelly = require('kelly');
 
 kelly(1, 0.6);
 // => 0.19999999999999996
@@ -20,7 +20,7 @@ $ npm install kelly
 ## API
 
 ``` javascript
-var kelly = require('kelly');
+const kelly = require('kelly');
 ```
 
 ### `kelly(b, p)`
