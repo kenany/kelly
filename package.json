@@ -20,7 +20,7 @@
     "test": "test"
   },
   "engines": {
-    "node": "14 || 16 || >=18"
+    "node": "18 || >=20"
   },
   "scripts": {
     "lint": "eslint index.js test/index.js",
@@ -29,13 +29,13 @@
     "release": "semantic-release"
   },
   "devDependencies": {
-    "@kenan/eslint-config": "^10.0.2",
+    "@kenan/eslint-config": "^11.0.1",
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
-    "conventional-changelog-conventionalcommits": "^6.1.0",
-    "eslint": "^8.48.0",
+    "conventional-changelog-conventionalcommits": "^7.0.2",
+    "eslint": "^8.49.0",
     "lodash.isfunction": "^3.0.9",
-    "semantic-release": "^21.0.7",
+    "semantic-release": "^22.0.1",
     "tape": "^5.6.6"
   }
 }
