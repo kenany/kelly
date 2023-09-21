@@ -1,3 +1,14 @@
+## [3.0.0](https://github.com/kenany/kelly/compare/2.0.0...3.0.0) (2023-09-21)
+
+
+### ⚠ BREAKING CHANGES
+
+* Node.js v14 and v16 are no longer supported.
+
+### Features
+
+* drop Node.js v14 and v16 ([65a5902](https://github.com/kenany/kelly/commit/65a590226bf7a20841a71144245bdafeae36de5b))
+
 ## [2.0.0](https://github.com/kenany/kelly/compare/1.0.4...2.0.0) (2023-06-10)
 
 
