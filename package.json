@@ -36,6 +36,6 @@
     "eslint": "^8.56.0",
     "lodash.isfunction": "^3.0.9",
     "semantic-release": "^23.0.2",
-    "tape": "^5.7.4"
+    "tape": "^5.7.5"
   }
 }
