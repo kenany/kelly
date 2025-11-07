@@ -29,13 +29,13 @@
     "release": "semantic-release"
   },
   "devDependencies": {
-    "@kenan/eslint-config": "^11.1.18",
-    "@semantic-release/changelog": "^6.0.3",
-    "@semantic-release/git": "^10.0.1",
-    "conventional-changelog-conventionalcommits": "^9.1.0",
-    "eslint": "^8.57.1",
-    "lodash.isfunction": "^3.0.9",
-    "semantic-release": "^25.0.0",
-    "tape": "^5.9.0"
+    "@kenan/eslint-config": "11.1.18",
+    "@semantic-release/changelog": "6.0.3",
+    "@semantic-release/git": "10.0.1",
+    "conventional-changelog-conventionalcommits": "9.1.0",
+    "eslint": "8.57.1",
+    "lodash.isfunction": "3.0.9",
+    "semantic-release": "25.0.2",
+    "tape": "5.9.0"
   }
 }
